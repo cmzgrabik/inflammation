@@ -1,4 +1,5 @@
 def assign_drug(filename):
+    '''Assigns a drug to a filename based on even or odd number''' 
     number = filename[13:-4]
     result =''
     if (int(number) % 2) == 1:
